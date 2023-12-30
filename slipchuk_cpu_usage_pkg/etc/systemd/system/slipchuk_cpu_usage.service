@@ -1,0 +1,10 @@
+[Unit]
+Description=CPU usage service for Ubuntu by Serhiy Slipchuk
+After=network.target
+
+[Service]
+ExecStart=/home/serg/homework03-2/cpu_usage_systemd.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

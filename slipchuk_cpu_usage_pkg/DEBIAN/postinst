@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+
+#apt install sysstat
+#systemctl enable sysstat
+#systemctl start sysstat
+
+systemctl daemon-reload
+
+# Enable systemd service
+systemctl enable slipchuk_cpu_usage.service
+systemctl start slipchuk_cpu_usage.service

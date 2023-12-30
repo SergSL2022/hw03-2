@@ -1,0 +1,6 @@
+Package: slipchukcpuusage
+Version: 1.0
+Maintainer: Serhiy Slipchuk
+Architecture: all
+Description: Log CPU usage every 60 minutes
+Depends: systemd
